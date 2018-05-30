@@ -1,0 +1,367 @@
+/*all*/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body>div {
+  width: 100%;
+}
+
+.sidebar {
+  position: absolute;
+  height: 100vh;
+  background-image: url(sidenav_background_img.png);
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar img {
+  width: 90%;
+  margin: 10px auto 20px auto;
+}
+
+#nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Tajawal', sans-serif;
+  margin: 5px 0 5px 0;
+  padding: 14px 0 14px 24px;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.2);
+  text-align: left !important;
+}
+
+#nav h6 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Tajawal', sans-serif;
+  padding-left: 24px;
+  margin-top: -5px;
+  text-align: left !important;
+}
+
+#nav p {
+  color: #fff;
+  font-family: 'Tajawal', sans-serif;
+  padding-left: 24px;
+  text-align: left !important;
+}
+
+.page_content {
+  position: absolute;
+  height: 100vh;
+  width: 80%;
+  right: 0;
+  background-color: rgb(244, 244, 232);
+}
+
+@font-face {
+  font-family: 'myriad';
+  src: url(myriad.ttf);
+}
+
+/*home*/
+
+.home {
+  height: 100vh;
+}
+
+.photo_boxes {
+  display: flex;
+  position: absolute;
+  flex-wrap: wrap;
+}
+
+.photo_box {
+  height: 33.3vh;
+  flex-basis: 33.3%;
+  background-position: center;
+  background-size: cover;
+}
+
+#photo1 {
+  background-image: url(home_grid_1.png);
+}
+
+#photo2 {
+  background-image: url(home_grid_2.png);
+}
+
+#photo3 {
+  background-image: url(home_grid_3.png);
+}
+
+#photo4 {
+  background-image: url(home_grid_4.png);
+}
+
+#photo5 {
+  background-image: url(home_grid_5.png);
+}
+
+#photo6 {
+  background-image: url(home_grid_6.png);
+}
+
+#photo7 {
+  background-image: url(home_grid_7.png);
+}
+
+#photo8 {
+  background-image: url(home_grid_8.png);
+}
+
+#photo9 {
+  background-image: url(home_grid_9.png);
+}
+
+/*roots*/
+
+.roots {
+  height: 100vh;
+}
+
+.roots_boxes {
+  text-align: center;
+}
+
+.roots_info {
+  height: 100vh;
+  position: absolute;
+  width: 56%;
+  border-right: 6px dotted rgb(162, 201, 139);
+}
+
+.roots h2 {
+  font-size: 40px;
+  font-family: 'Sacramento', cursive;
+  color: rgb(82, 82, 82);
+  line-height: 2;
+  z-index: 70;
+}
+
+.roots .green_p {
+  color: rgb(98, 169, 63) !important;
+}
+
+.roots p {
+  font-size: 14px;
+  font-family: 'myriad';
+  line-height: 1.5;
+  z-index: 69;
+  color: rgb(70, 70, 70);
+}
+
+.roots_info p {
+  padding: 20px;
+}
+
+.roots_other {
+  height: 100vh;
+  position: absolute;
+  width: 44%;
+  right: 0;
+}
+
+.roots_people {
+  position: absolute;
+  width: 100%;
+  height: 56vh;
+  border-bottom: 6px dotted rgb(162, 201, 139);
+}
+
+.roots_music {
+  position: absolute;
+  width: 100%;
+  height: 44vh;
+  bottom: 0;
+}
+
+.roots_music img {
+  margin-top: 20px;
+  width: 140px;
+}
+
+.roots_music a {
+  background-color: rgb(98, 169, 63);
+  box-shadow: 0px 0px 25px 0px rgba(196, 196, 196, 0.004), inset 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
+  padding: 10px 26px 10px 26px;
+  border-radius: 16px;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 3000px !important;
+}
+
+/*menu*/
+
+.menu {
+  height: 100vh;
+  text-align: center;
+}
+
+.menu_content img {
+  width: 100%;
+}
+
+.menu_content a {
+  text-decoration: none;
+  color: rgb(31, 10, 10);
+  font-size: 15px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 6px;
+  border: 1.4px solid rgb(31, 10, 10);
+  border-radius: 20px;
+  padding: 8px 12px 8px 12px;
+}
+
+.menu_buttons {
+  text-align: center;
+  margin: 20px;
+}
+
+.beetroot_break {
+  width: 220px !important;
+  margin: 20px 0 20px 0;
+}
+
+.menu_boxes {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.menu h3 {
+  font-size: 15px;
+  font-family: 'Nunito Sans', sans-serif;
+  color: rgb(31, 10, 10);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.menu h4 {
+  font-size: 16px;
+  font-family: "Nunito Sans";
+  color: rgb(31, 10, 10);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.menu h6 {
+  font-size: 12px;
+  font-family: "Nunito Sans";
+  color: rgb(31, 10, 10);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.menu p {
+  font-size: 15px;
+  font-family: "Nunito Sans";
+  color: rgb(101, 100, 100);
+  font-weight: bold;
+  line-height: 1.333;
+  padding: 0 25px 0 25px;
+}
+
+.menu_box_left, .menu_box_right {
+  flex-basis: 40%;
+  height: 500px;
+  border: 2px dashed rgb(174, 174, 174);
+  margin: 15px;
+  text-align: left;
+}
+
+.beetroot_end {
+  width: 60px !important;
+  margin: 10px;
+}
+
+.menu_breakfast {
+  display: none;
+}
+
+.menu_lunch {
+  display: none;
+}
+
+.menu_juices {
+  display: none;
+}
+
+/*connect*/
+
+.connect {
+  height: 100vh;
+}
+
+.connect_info {
+  width: 100%;
+}
+
+.connect_left {
+  position: absolute;
+  width: 50%;
+  text-align: center;
+}
+
+.connect_left img {
+  margin-top: 10px;
+}
+
+.connect_left h3 {
+  font-size: 16px;
+  font-family: "Nunito Sans";
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.connect_left p {
+  font-size: 15px;
+  font-family: "Nunito Sans";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.connect_left .ad {
+  border: 2px dashed rgb(97, 162, 67);
+  border-radius: 12px;
+  height: 200px;
+  width: 80%;
+  margin: auto;
+}
+
+.connect_left .ad h3 {
+  font-size: 16px;
+  font-family: 'myriad';
+  color: rgb(68, 111, 47);
+  line-height: 1.4;
+  margin: 30px;
+}
+
+.connect_left .ad p {
+  font-size: 14px;
+  font-family: "myriad";
+  color: rgb(68, 111, 47);
+  line-height: 1.2;
+}
+
+.connect_right {
+  position: absolute;
+  right: 0;
+  width: 50%;
+}
