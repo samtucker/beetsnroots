@@ -289,15 +289,16 @@ body>div {
   margin: 10px;
 }
 
-.menu_breakfast {
-  display: none;
-}
 
 .menu_lunch {
   display: none;
 }
 
 .menu_juices {
+  display: none;
+}
+
+.menu_drinks {
   display: none;
 }
 

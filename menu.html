@@ -16,42 +16,44 @@
 <body>
   <div class="menu">
     <div class="sidebar" id="nav">
-      <img src="sidebar_logo.png" alt="logo">
-        <a href="roots.html">Our Roots</a>
-        <a href="menu.html">Menu</a>
-        <a href="#">Order Online</a>
-        <a href="connect.html">Connect with Us</a>
-        <br>
-        <br>
-        <h6>opening times</h6>
-        <br>
-        <p>Monday - Friday</p>
-        <p>8:00AM - 5:00PM</p>
-        <br>
-        <p>Saturday</p>
-        <p>9:00AM - 4:00PM</p>
-        <br>
-        <p>Sunday</p>
-        <p>10:00AM - 3:30PM</p>
-        <p>(Opening Times may Fluctuate)</p>
-        <br>
-        <h6>Call us</h6>
-        <p>07746 636587</p>
-
+      <a href="index.html">
+        <img src="sidebar_logo.png" alt="logo">
+      </a>
+      <a href="roots.html">Our Roots</a>
+      <a href="menu.html">Menu</a>
+      <a href="#">Order Online</a>
+      <a href="connect.html">Connect with Us</a>
+      <br>
+      <br>
+      <h6>opening times</h6>
+      <br>
+      <p>Monday - Friday</p>
+      <p>8:00AM - 5:00PM</p>
+      <br>
+      <p>Saturday</p>
+      <p>9:00AM - 4:00PM</p>
+      <br>
+      <p>Sunday</p>
+      <p>10:00AM - 3:30PM</p>
+      <p>(Opening Times may Fluctuate)</p>
+      <br>
+      <h6>Call us</h6>
+      <p>07746 636587</p>
     </div>
     <div class="page_content menu_content">
-      <img src="menu.png" alt="menu"/>
+      <img src="menu.png" alt="menu" />
       <div class="menu_buttons">
-        <a href="#">Breakfast</a>
-        <a href="#">Lunch</a>
-        <a href="#">Juices & Smothies</a>
-        <a href="#">Hot Drinks</a>
+        <a href="#" onclick="showBreakfast()">Breakfast</a>
+        <a href="#" onclick="showLunch()">Lunch</a>
+        <a href="#" onclick="showJuice()">Juices & Smothies</a>
+        <a href="#" onclick="showDrinks()">Hot Drinks</a>
       </div>
       <br>
-      <div class="menu_breakfast menu_option">
+      <div id="breakfast" class="menu_breakfast menu_option">
         <h3>THE ALL MIGHTY BREAKFAST @ £9.95</h3>
         <h6>(AVAILABLE UNTIL MIDDAY)</h6>
-        <p>Baked large flat Mushroom on toast sprinkled with china rose sprouts, avocado on toast sprinkled with paprika, baked beans, scrambled egg or tofu (or ask for poached), served with ginger & garlic sauted kale, basil & garlic roasted tomatoes and fresh leaves.</p>
+        <p>Baked large flat Mushroom on toast sprinkled with china rose sprouts, avocado on toast sprinkled with paprika, baked beans, scrambled egg or tofu (or ask for poached), served with ginger & garlic sauted kale, basil & garlic roasted tomatoes and
+          fresh leaves.</p>
         <img class="beetroot_break" src="beetroot_break.png" alt="break">
         <h3>The Power Brunch Wrap @ $5.95</h3>
         <p>Scrambled eggs or tofu with onion, red pepper, fresh spinach and roasted garlic & basil tomatoes, served in a wrap with fresh leaves and avocado.</p>
@@ -86,13 +88,15 @@
         </div>
         <img class="beetroot_break" src="beetroot_break.png" alt="break">
         <h3>WE ARE TRUE TO OUR ROOTS...</h3>
-        <p><b>VG:</b> 99% of our food is plant based (except for added honey, eggs and cheese where specified as additional extras) We believe a plant based diet brings us all a little closer to maintaining a healthy body and a sustainable planet. The milk we use is coconut, oat and almond.</p>
-        <p><b>GF:</b> Everything we serve is prepared with Gluten free ingredients (including our stocks and tamari) except wraps, sourdough bread and some granolas. Please just ask to replace the bread with our delicious seeded GF bread, and specify GF granola. Unfortunately we have not sourced gluten free wraps that are good enough, but we are working on it!</p>
+        <p><b>VG:</b> 99% of our food is plant based (except for added honey, eggs and cheese where specified as additional extras) We believe a plant based diet brings us all a little closer to maintaining a healthy body and a sustainable planet. The milk
+          we use is coconut, oat and almond.</p>
+        <p><b>GF:</b> Everything we serve is prepared with Gluten free ingredients (including our stocks and tamari) except wraps, sourdough bread and some granolas. Please just ask to replace the bread with our delicious seeded GF bread, and specify GF
+          granola. Unfortunately we have not sourced gluten free wraps that are good enough, but we are working on it!</p>
         <p><b>ORGANIC:</b>We use organic ingredients as much as possible, occasionally we may have to substitute where necessary.</p>
         <p><b>ECO:</b> We care very much about our planet and use eco and compostable packaging for our takeaways, we also encourage bringing in your own re usable containers; in fact we even offer you 10% when you do!</p>
         <img class="beetroot_end" src="beetroot_end.png" alt="beetroot_end">
       </div>
-      <div class="menu_lunch menu_option">
+      <div id="lunch" class="menu_lunch menu_option">
         <p>Lunch is served from 11:30am until close.</p>
         <img class="beetroot_break" src="beetroot_break.png" alt="break">
         <div class="menu_boxes">
@@ -120,7 +124,7 @@
           </div>
         </div>
       </div>
-      <div class="menu_juices menu_option">
+      <div id="juice" class="menu_juices menu_option">
         <img class="beetroot_break" src="beetroot_break.png" alt="break">
         <div class="menu_boxes">
           <div class="menu_box_left">
@@ -149,14 +153,50 @@
         </div>
         <img class="beetroot_break" src="beetroot_break.png" alt="break">
         <h3>Tall and Refreshing</h3>
-        <p>House made Edlerflower Kefir Fizz  @ £2.75</p>
-        <p>Live Ginger Beer (100% Fresh Ginger, a real zinger!)  @ £2.75</p>
+        <p>House made Edlerflower Kefir Fizz @ £2.75</p>
+        <p>Live Ginger Beer (100% Fresh Ginger, a real zinger!) @ £2.75</p>
         <p>Cordials - Sparkling or Still @ £1.50</p>
         <p>Kombucha @ £3.50</p>
         <img class="beetroot_end" src="beetroot_end.png" alt="end">
       </div>
-      <div class="menu_option menu_drinks">
-
+      <div id="drink" class="menu_option menu_drinks">
+        <img class="beetroot_break" src="beetroot_break.png" alt="break">
+        <div class="menu_boxes">
+          <div class="menu_box_left">
+            <h3>TEAS</h3>
+            <p>£1.50 A selection of Pukka Cuppas.</p>
+            <h3>BLUEBIRD TEAS</h3>
+            <p>Bluebird Tea Co. are Tea Mixologists. They focus on developing unique blends of tea. They create exciting flavours by mixing them with a wide range of blending ingredients.</p>
+            <h3>Loose Leaf Tea</h3>
+            <p>£2.00 / £3.00 Tea for Two</p>
+            <h3>Dozy Girl (Herbal)</h3>
+            <p>A soothing, sleepy time chamomile blend with lavender and rose</p>
+            <h3>Earl Grey Creme (Black)</h3>
+            <p>Award-winning, fresh and fragrant vanilla Earl Grey tea</p>
+            <h3>Gingerbread (Rooibos)</h3>
+            <p>Award-winning tea, blended with cardmom, cinnamon, and ginger</p>
+            <h3>Mojitea (green)</h3>
+            <p>A super refreshing blend of green tea, peppermint, and lime</p>
+            <h3>Skinny Minny (Pu'erh)</h3>
+            <p>An energising, metabolism boosting, stomach calming oolong and pu'erh tea</p>
+            <h3>Strawberry Lemonade (Fruit)</h3>
+            <p>A fruity tea infusion that tastes as good as it smells. Can be served cold.</p>
+          </div>
+          <div class="menu_box_right">
+            <h3>Coffees</h3>
+            <p>We use Bristol Twenty's Organic Roast Formula 442. Our coffees are made using Oat or Almond milk. Coconut milk is available on request.</p>
+            <h3>Beets n Roots Bullet Coffee @ £2.95</h3>
+            <p>Our very popular ʻhealthierʼ coffee. blended with coconut oil for a delicious & healthy latte alternative (brain boosting!)</p>
+            <p>Espresso @ £2.00</p>
+            <p>Double Expresso @ £2.50</p>
+            <p>Macchiato @ £2.95</p>
+            <p>Americano @ £2.50</p>
+            <p>Latte @ £2.95</p>
+            <p>Cappuccino @ £2.95</p>
+            <p>Flat White @ £2.95</p>
+            <p>Mocha @ £2.95</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
