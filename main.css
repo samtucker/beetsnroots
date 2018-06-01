@@ -366,3 +366,17 @@ body>div {
   right: 0;
   width: 50%;
 }
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
+.social a {
+  font-size: 40px;
+  font-family: "Sacramento";
+  color: rgb(98, 169, 63);
+  line-height: 2;
+  text-align: left;
+  text-decoration: none;
+}
