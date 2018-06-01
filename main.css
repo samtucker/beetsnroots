@@ -276,9 +276,17 @@ body>div {
   padding: 0 25px 0 25px;
 }
 
+.menu_boxes h3, .menu_boxes h4 {
+  padding: 0 25px 0 25px;
+}
+
+.menu_boxes p {
+  margin-bottom: 5px;
+}
+
 .menu_box_left, .menu_box_right {
   flex-basis: 40%;
-  height: 500px;
+  height: 560px;
   border: 2px dashed rgb(174, 174, 174);
   margin: 15px;
   text-align: left;
@@ -300,6 +308,14 @@ body>div {
 
 .menu_drinks {
   display: none;
+}
+
+.menu .sidebar {
+  height: 220vh;
+}
+
+.menu .page_content {
+  height: 220vh;
 }
 
 /*connect*/
