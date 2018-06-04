@@ -286,7 +286,8 @@ body>div {
 
 .menu_box_left, .menu_box_right {
   flex-basis: 40%;
-  height: 560px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border: 2px dashed rgb(174, 174, 174);
   margin: 15px;
   text-align: left;
