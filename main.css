@@ -29,7 +29,7 @@ body>div {
   text-transform: uppercase;
   color: #fff;
   font-family: 'Tajawal', sans-serif;
-  margin: 5px 0 5px 0;
+  margin: 2px 0 2px 0;
   padding: 14px 0 14px 24px;
   border-bottom: 1px solid rgba(51, 51, 51, 0.2);
   text-align: left !important;
@@ -38,7 +38,7 @@ body>div {
 #nav h6 {
   text-transform: uppercase;
   color: #fff;
-  font-size: 16px;
+  font-size: 15px;
   font-family: 'Tajawal', sans-serif;
   padding-left: 24px;
   margin-top: -5px;
